@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <title>MalVestida
+    </title>
+</head>
+<body>
+  <!--Seccion de Barra-->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid d-flex align-items-center justify-content-between">    
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="/img/pngtree-artificial-intelligence--ai--machine-learning-png-image_12281290.webp" alt="LOGO">
+    </a>
+
+    <!-- Botón de Toggle para pantallas pequeñas -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Contenido del menú -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link font" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font" href="#">Innovación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font" href="#">Desarrollo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font" href="#">Tecnología</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font" href="#">Tendencias</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="menu-icon">&#8226;&#8226;&#8226;</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item itemfont">Avances Científicos</a></li>
+          </ul>
+        </li>
+        <li class="flexbox nav-item">
+          <a class="nav-link anuncio-barra" href="#">¡Explora más sobre tecnología!</a>
+        </li>
+        <div class="dropdown nav-item">
+          <!-- Botón de Buscar -->
+          <div class="largoMenu btn dropdown-click" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="tdb-search-txt">
+              <i class="fas fa-search p-2"></i> Buscar
+            </span>
+          </div>
+          <!-- Menú desplegable -->
+          <ul class="dropdown-menu dropdown-pos">
+            <li class="caja">
+              <form class="d-flex m-3">
+                <input
+                  type="text"
+                  class="form-control bordesMenu ms-2"
+                  aria-label="Buscar"
+                />  
+                <button type="submit" class="btn btn-primary bordesMenu">Buscar</button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- Seccion Imagenes e infomación principal -->
+      <section class="mt-4">
+        <div class="d-flex flex-column flex-lg-row m-3">
+          <!-- Columna izquierda -->
+          <div class="d-flex flex-column m-3">
+            <div class="imagen-texto">
+              <img src="img/portadaweb-scaled.webp" class="imagenChange mb-3" alt="">
+              <div>
+                <h6>Innovación</h6>
+                <h1 class="font-size-h1">
+                  Inteligencia Artificial: “No se trata solo de datos, se trata de transformar el mundo”
+                </h1>
+                <p>
+                  Descubre cómo la inteligencia artificial está revolucionando industrias y qué opinan los expertos sobre su impacto en la sociedad.
+                </p>
+                <p style="color: #767676;">14 noviembre, 2024</p>
+              </div>
+            </div>
+          </div>
+      <!-- Sección modificada: Agrupación de columnas central y derecha -->
+      <div class="container">
+        <!-- Fila 1 -->
+        <div class="row align-items-center mb-4">
+          <div class="col-6">
+            <div>
+              <h5><a href="#" style="color: #8d6eff;" class="nav-link">Desarrollo</a></h5>
+              <h1 class="font-size-h1">
+                <a href="#" class="nav-link">El avance de los microprocesadores: ¿Qué nos espera en 2025?</a>
+              </h1>
+              <p>Exploramos las tendencias en hardware y qué significan para el futuro del rendimiento computacional.</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="img/portadas-Malvestida-7.webp" class="img-fluid" alt="Imagen microprocesadores">
+          </div>
+        </div>
+      
+        <!-- Fila 2 -->
+        <div class="row align-items-center mb-4">
+          <div class="col-6">
+            <div>
+              <h5><a href="#" style="color: #8d6eff;" class="nav-link">Tecnología</a></h5>
+              <h1 class="font-size-h1">
+                <a href="#" class="nav-link">Robótica y el futuro laboral: ¿Amigos o competidores?</a>
+              </h1>
+              <p>
+                Analizamos cómo la automatización y los robots están cambiando el panorama laboral y qué oportunidades surgen para los humanos.
+              </p>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="img/portadas-Malvestida-5.webp" class="img-fluid" alt="Imagen robótica">
+          </div>
+        </div>
+      
+        <!-- Fila 3 -->
+        <div class="row align-items-center mb-4">
+          <div class="col-6">
+            <div>
+              <h5>Tendencias</h5>
+              <h1 class="font-size-h1">“Blockchain no es solo criptomonedas”</h1>
+              <p>
+                Expertos explican cómo esta tecnología está siendo utilizada en sectores como la salud, la logística y los derechos de autor.
+              </p>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="img/portadas-Malvestida-4.webp" class="img-fluid" alt="Imagen blockchain">
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+
+
+
+
+
+
+
+  <!-- seccion 2 info e imagenes -->
+
+  <section class="seccion-sexualidad p-5">
+    <!-- Encabezado principal -->
+    <div class="seccion-titulo ms-5 mt-5">
+      <h3 class="titulo-principal mb-3 pb-4">
+        La tecnología avanza... ¡y tú puedes liderar el cambio! 🚀
+      </h3>
+    </div>
+  
+    <!-- Tarjeta 1 -->
+    <div class="tarjeta row align-items-center mb-5">
+      <div class="tarjeta-texto col-md-6 col-12">
+        <h5 class="tarjeta-categoria">Innovación</h5>
+        <h1 class="tarjeta-titulo">Inteligencia Artificial: Aliada para resolver grandes problemas</h1>
+        <h5 class="tarjeta-descripcion">
+          Desde predecir desastres naturales hasta personalizar tratamientos médicos, la IA está transformando cómo enfrentamos desafíos globales.
+        </h5>
+        <p class="tarjeta-fecha">15 julio, 2020</p>
+      </div>
+      <div class="tarjeta-imagen col-md-6 col-12 text-center">
+        <img src="img/m.webp" alt="Artículo 1" class="img-tarjeta">
+      </div>
+    </div>
+  
+    <!-- Tarjeta 2 -->
+    <div class="tarjeta row align-items-center mb-5">
+      <div class="tarjeta-texto col-md-6 col-12">
+        <h5 class="tarjeta-categoria">Innovación</h5>
+        <h1 class="tarjeta-titulo">La carrera hacia el Internet de las cosas (IoT)</h1>
+        <h5 class="tarjeta-descripcion">
+          La conectividad entre dispositivos está redefiniendo hogares, ciudades y empresas. ¿Estamos listos para un mundo hiperconectado?
+        </h5>
+        <p class="tarjeta-fecha">22 agosto, 2023</p>
+      </div>
+      <div class="tarjeta-imagen col-md-6 col-12 text-center">
+        <img src="img/HORIZONTALMes-de-la-masturbación-.webp" alt="Artículo 2" class="img-tarjeta">
+      </div>
+    </div>
+  
+    <!-- Tarjeta 3 -->
+    <div class="tarjeta row align-items-center">
+      <div class="tarjeta-texto col-md-6 col-12">
+        <h5 class="tarjeta-categoria">Tendencias</h5>
+        <h1 class="tarjeta-titulo">Blockchain: Más allá de las criptomonedas</h1>
+        <h5 class="tarjeta-descripcion">
+          El blockchain está transformando la forma en que gestionamos la información, con aplicaciones que van desde la salud hasta la logística.
+        </h5>
+        <p class="tarjeta-fecha">7 mayo, 2020</p>
+      </div>
+      <div class="tarjeta-imagen col-md-6 col-12 text-center">
+        <img src="img/marchadelorgullo2024.webp" alt="Artículo 3" class="img-tarjeta">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+    <!-- seccion 3 info e imagenes -->
+    <section class="container mt-5">
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="text-center">
+            <h4 class="text-primary fw-bold">Inteligencia Artificial</h4>
+            <img src="img/portadas-Malvestida-4.webp" alt="Inteligencia Artificial" class="img-fluid mb-3">
+          </div>
+          <h6 style="color: #8d6eff;">Innovación</h6>
+          <h5 class="fw-bold"><a href="#" class="nav-link">¿Cómo la IA está revolucionando la educación?</a></h5>
+          <p>Descubre cómo las herramientas de inteligencia artificial están transformando el aprendizaje, desde tutorías personalizadas hasta plataformas de análisis de datos educativos.</p>
+          <p>Laura Martínez - 14 noviembre, 2024</p>
+          <hr>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="text-center">
+            <h4 class="text-primary fw-bold">Ciberseguridad</h4>
+            <img src="img/portadas-Malvestida-5.webp" alt="Ciberseguridad" class="img-fluid mb-3">
+          </div>
+          <h6 style="color: #8d6eff;">Tendencias</h6>
+          <h5 class="fw-bold"><a href="#" class="nav-link">5 claves para proteger tu identidad en línea</a></h5>
+          <p>Conoce cómo los ataques cibernéticos evolucionan y qué pasos simples puedes tomar para garantizar que tus datos estén seguros en la era digital.</p>
+          <p>Carlos Gómez - 4 septiembre, 2024</p>
+          <hr>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="text-center">
+            <h4 class="text-primary fw-bold">Tecnología Verde</h4>
+            <img src="img/portadas-Malvestida-7.webp" alt="Tecnología Verde" class="img-fluid mb-3">
+          </div>
+          <h6 style="color: #8d6eff;">Sostenibilidad</h6>
+          <h5 class="fw-bold"><a href="#" class="nav-link">Energía renovable: Innovaciones tecnológicas para un planeta más verde</a></h5>
+          <p>Explora las últimas soluciones tecnológicas que están marcando la diferencia en la lucha contra el cambio climático.</p>
+          <p>Sofía Hernández - 10 octubre, 2024</p>
+          <hr>
+        </div>
+      </div>
+    </section>
+
+
+
+
+<!--Seccion 4 CARDS-->
+<section style="background-color: #8d6eff;" class="p-3">
+  <!--FILA 1-->
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-around">
+    <!--CARDS 1 FILA 1-->
+    <div class="col mb-4">
+      <h4 class="text-center mt-5 textWhiteBold">Ciberseguridad</h4>
+      <div class="d-flex flex-row ms-5">
+        <div class="col-4 mt-4 me-3">
+          <img src="img/portadas-Malvestida-7.webp" alt="Ciberseguridad" class="img-fluid ajusteImagen">
+        </div>
+        <div class="col-8 mt-4">
+          <h6 class="textWhiteBold">Seguridad</h6>
+          <h4 class="textWhiteBold">Cómo los ataques cibernéticos pueden afectar a las pymes</h4>
+          <p class="textWhiteBold">Colaboración - 13 noviembre, 2024</p>
+        </div>
+      </div>
+    </div>
+    <!--CARDS 2 FILA 1-->
+    <div class="col mb-4">
+      <h4 class="text-center mt-5 textWhiteBold">Innovación</h4>
+      <div class="d-flex flex-row ms-5">
+        <div class="col-4 mt-4 me-3">
+          <img src="img/carrusel_estafas_portadanota.webp" alt="Innovación" class="img-fluid ajusteImagen">
+        </div>
+        <div class="col-8 mt-4">
+          <h6 class="textWhiteBold">Inteligencia Artificial</h6>
+          <h4 class="textWhiteBold">El impacto de la IA generativa en los procesos creativos</h4>
+          <p class="textWhiteBold">Paola Alín - 21 noviembre, 2023</p>
+        </div>
+      </div>
+    </div>
+    <!--CARDS 3 FILA 1-->
+    <div class="col mb-4">
+      <h4 class="text-center mt-5 textWhiteBold">Cultura</h4>
+      <div class="d-flex flex-row ms-5">
+        <div class="col-3 mt-4 me-3">
+          <img src="img/coger-comer.webp" alt="Cultura" class="img-fluid ajusteImagen">
+        </div>
+        <div class="col-7 mt-3">
+          <h6 class="textWhiteBold">Arte y Tecnología</h6>
+          <h4 class="textWhiteBold">«Arte digital: redefiniendo los límites de la creatividad»</h4>
+          <p class="textWhiteBold">Colaboración - 29 febrero, 2024</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FILA 2-->
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-around mb-5">
+    <!--CARDS 1 FILA 2-->
+    <div class="col mb-4">
+      <div class="d-flex flex-row ms-5">
+        <div class="col-4 mt-4 me-3">
+          <img src="img/portadas-Malvestida-5.webp" alt="Fintech" class="img-fluid ajusteImagen">
+        </div>
+        <div class="col-8 mt-4">
+          <h6 class="textWhiteBold">Fintech</h6>
+          <h5 class="textWhiteBold">Blockchain más allá del Bitcoin: nuevas oportunidades</h5>
+          <p class="textWhiteBold">Ale Carvajal - 10 octubre, 2024</p>
+        </div>
+      </div>
+    </div>
+    <!--CARDS 2 FILA 2-->
+    <div class="col mb-4">
+      <div class="d-flex flex-row ms-5">
+        <div class="col-4 mt-4 me-3">
+          <img src="img/portada_sitio_mejor_lesbiana.webp" alt="Realidad Virtual" class="img-fluid ajusteImagen">
+        </div>
+        <div class="col-8 mt-4">
+          <h6 class="textWhiteBold">Realidad Virtual</h6>
+          <h5 class="textWhiteBold">Metaverso: cómo las empresas están explorando nuevos mercados</h5>
+          <p class="textWhiteBold">Sofía Poiré - 12 octubre, 2023</p>
+        </div>
+      </div>
+    </div>
+    <!--CARDS 3 FILA 2-->
+    <div class="col mb-4">
+      <div class="d-flex flex-row ms-5">
+        <div class="col-3 mt-4 me-3">
+          <img src="img/tarot-afro-queer.webp" alt="Tecnología" class="img-fluid ajusteImagen">
+        </div>
+        <div class="col-7 mt-3">
+          <h6 class="textWhiteBold">Tecnología</h6>
+          <h5 class="textWhiteBold">La robótica: un aliado en la industria y el hogar</h5>
+          <p class="textWhiteBold">Redacción Malvestida - 7 febrero, 2024</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECCION 5 -->
+<section style="background-color: #ffffff;">
+  <h1><a href="#" class="nav-link mt-5 ms-5" style="color: #8d6eff; font-weight: bold;">Explora más artículos</a></h1>
+
+  <!-- Primer Carrusel -->
+  <div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Primer slide (activo) -->
+      <div class="carousel-item active">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/marchadelorgullo2024.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Bienestar</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">Cómo mantener el equilibrio mental en tiempos difíciles</h3>
+            <p>Por: Ana López - Una guía para cuidar tu salud emocional.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundo slide -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/portadas-Malvestida.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Cultura</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">El impacto del arte en la transformación social</h3>
+            <p>Descubre cómo las expresiones artísticas están cambiando comunidades.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tercer slide -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/portadas-Malvestida-1.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Perspectivas</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">Entendiendo las nuevas generaciones</h3>
+            <p>Un análisis sobre los valores y desafíos de los jóvenes hoy..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controles del primer carrusel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Segundo Carrusel -->
+  <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Primer slide (activo) -->
+      <div class="carousel-item active">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/portadas-Malvestida-3.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Estilo</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">Tendencias de moda para 2024</h3>
+            <p>Descubre los colores, estilos y prendas que marcarán la diferencia.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundo slide -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/portadas-Malvestida-1.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Viajes</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">Explorando destinos sostenibles</h3>
+            <p>Opciones de turismo que cuidan el planeta y te ofrecen experiencias únicas</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tercer slide -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/portadas-Malvestida-5.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Innovación</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">Tecnología y bienestar</h3>
+            <p>Cómo las nuevas herramientas están revolucionando la salud y el autocuidado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controles del segundo carrusel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+  <!-- Tercer Carrusel -->
+  <div id="carouselExample3" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Primer slide (activo) -->
+      <div class="carousel-item active">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/portadas-Malvestida-7.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Tecnología</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">Las empresas están explorando nuevos mercados</h3>
+            <p>Fernanda Torres1 y Ximena Said Chávez</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundo slide -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/portadas-Malvestida.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Bienestar</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">Energía renovable: Innovaciones tecnológicas para un planeta más verde</h3>
+            <p>Por: Ana López</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tercer slide -->
+      <div class="carousel-item">
+        <div class="d-flex flex-column flex-sm-row">
+          <div class="col-12 col-sm-4 p-4">
+            <img src="img/portadas-Malvestida-1.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-sm-8 p-5" style="margin-top: 20px;">
+            <h6 style="color: #8d6eff;">Cultura</h6>
+            <h3 style="color: #8d6eff; font-weight: bold;">El impacto del arte</h3>
+            <p>Texto por: Eme Flores...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controles del segundo carrusel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+
+  <!-- Seccion 6 -->
+  <section style="background-color: #8d6eff;" class="pt-5 pb-5">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <p class="mb-3"><a href="#" class="nav-link" style="color: white; font-size: 20px;">¿Quiénes somos?</a></p>
+      <p class="mb-3"><a href="#" class="nav-link" style="color: white; font-size: 20px;">Únete a nuestras colaboraciones</a></p>
+      <p class="mb-3"><a href="#" class="nav-link" style="color: white; font-size: 20px;">Trabaja con nosotros</a></p>
+      <p><a href="#" class="nav-link" style="color: white; font-size: 20px;">Términos y condiciones</a></p>
+    </div>
+  </section>
+
+
+
+
+<!-- Sección 7 -->
+<section style="background-color: #f2f2f2; padding: 50px;">
+  <div class="d-flex flex-wrap justify-content-center align-items-center">
+    <!-- Iconos de redes sociales -->
+    <a href="#" class="social-icon mx-3 mb-3"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-icon mx-3 mb-3"><i class="fab fa-tiktok"></i></a>
+    <a href="#" class="social-icon mx-3 mb-3"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-icon mx-3 mb-3"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="social-icon mx-3"><i class="fab fa-pinterest-p"></i></a>
+  </div>
+</section>
+      <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,472 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+/*SECCION NAVBAR*/
+
+
+/*fuente de las letras del nav*/
+
+.font{
+    font-family: Verdana, Tahoma, sans-serif sans-serif;
+}
+
+
+/* NAVBAR RESPONSIVE */
+
+/* Estilo general de la navbar */
+.navbar {
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 10px 15px;
+}
+.navbar-brand img {
+  max-width: 70px; /* Limita el tamaño del logo */
+  height: auto; /* Mantiene la proporción */
+  object-fit: contain; /* Asegura que no se deforme */
+}
+
+/* Espaciado entre los elementos del menú */
+.nav-item {
+  margin: 0 10px;
+}
+
+/* Estilo del botón toggler */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.7%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.collapse {
+  justify-content: space-between;
+}
+
+/* Ajustes para pantallas grandes */
+@media (min-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #8d6eff;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: -245px !important;
+}
+}
+
+/* Ajustes para pantallas medianas */
+@media (max-width: 991px) {
+  .navbar {
+    padding: 10px;
+  }
+  .navbar-brand {
+    margin-bottom: 10px;
+  }
+  .navbar-nav {
+    display: block;
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    margin: 5px 0;
+  }
+  .dropdown-menu {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 70px;
+  }
+  .navbar-nav {
+    display: block;
+  }
+  .nav-item {
+    margin-bottom: 10px;
+  }
+  .navbar-toggler {
+    font-size: 1.2rem;
+  }
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent; /* Elimina el fondo al pasar el ratón */
+    color: #ff5722; /* Cambia el color de la letra al pasar el ratón */
+  }
+
+  /* Mantener estilo por defecto del texto */
+  .dropdown-menu .dropdown-item {
+    background-color: transparent; /* Fondo transparente */
+    color: #000; /* Color inicial de la letra */
+  }
+/* cambiar color */
+  .nav-item{
+    cursor: pointer;
+  }
+
+  .nav-link:hover{
+    color: rgb(113, 113, 217);
+  }
+  /*acomodar el anuncio */
+
+
+
+  .flexbox{
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+
+
+  .anuncio-barra{
+    padding: 5px;
+    margin: 0px;
+    border: solid 2px rgba(0, 0, 0, 0.708);
+    border-radius: 30px;
+    font-family: GreycliffCF-Bold;
+    font-size: 18px;
+    font: italic;
+    background: greenyellow;
+    color: black;
+    font-style: italic; /* Aplica cursiva */
+    font-weight: bold; /* Aplica negrita */
+  }
+  .anuncio-barra:hover{
+    color: grey;
+  }
+  .itemfont{
+    font-size: 12px;
+  }
+  .navbarSupportedContent{
+
+    margin: 0;
+  }
+
+
+ /* Ajuste para el botón de búsqueda */
+.tdb-search-txt {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #5f6bf5;
+}
+
+
+/* Ajustar el dropdown para que aparezca justo debajo */
+.dropdown-pos {
+  /*margin-top: 10px;  Separación del botón superior */
+  left: 0 !important; /* Alineado con el botón */
+  right: auto !important; /* Deshabilita alineado automático derecho */
+  transform: none; /* Elimina el desplazamiento lateral */
+  width: 300px; /* Ancho fijo */
+}
+
+/* Personalización de input y botón */
+.bordesMenu {
+  border-radius: 0px;
+  height: 30px;
+}
+
+.btn-primary {
+  background-color: #a963e0; /* Personaliza color */
+  border: none;
+  display: flex;               /* Activa Flexbox */
+  justify-content: center;     /* Centra horizontalmente */
+  align-items: center;         /* Centra verticalmente */
+}
+
+.btn-primary:hover {
+  background-color: #9045d2; /* Color al pasar el mouse */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECCION PRINCIPAL */
+.imagenChange {
+  width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción natural */
+  object-fit: cover; /* Asegura que la imagen cubra el área sin recortes */
+}
+
+.font-size-h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #8d6eff;
+}
+
+/*IMAGENES SECCION PRINCIPAL RESPONSIVE*/
+
+@media (max-width: 412px) {
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .row .col-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .row img {
+    margin-bottom: 10px;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* Sección 2  */
+.seccion-sexualidad {
+  background-color: #8d6eff;
+}
+
+.titulo-principal {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* Tarjetas */
+.tarjeta {
+  margin-bottom: 2rem;
+}
+
+.tarjeta-texto {
+  text-align: start;
+}
+
+.tarjeta-categoria {
+  color: white;
+  font-weight: bold;
+}
+
+.tarjeta-titulo {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.tarjeta-descripcion {
+  color: white;
+  font-size: 1rem;
+}
+
+.tarjeta-fecha {
+  color: white;
+  font-weight: bold;
+}
+
+/* Imágenes */
+.tarjeta-imagen img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-tarjeta {
+  max-width: 100%;
+  height: auto; /* Mantiene la relación de aspecto */
+  object-fit: cover; /* Opcional, ajusta el contenido si se recorta */
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .img-tarjeta {
+    max-height: 300px; /* Limita la altura para evitar desproporción */
+    width: auto; /* Asegura que la imagen no se estire horizontalmente */
+  }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+  .titulo-principal {
+    font-size: 1.8rem;
+  }
+
+  .tarjeta-titulo {
+    font-size: 1.5rem;
+  }
+
+  .tarjeta-descripcion {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Seccion 4 más cards*/
+
+.ajusteImagen {
+  height: 60%;
+  object-fit: cover;
+}
+
+.textWhiteBold {
+  font-weight: bold;
+  color: white;
+}
+
+/* Agregamos un pequeño margen inferior para las cards */
+.col.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive - Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .col-4, .col-3, .col-8 {
+    max-width: 100%;
+  }
+}
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-row {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  display: none; /* Ocultamos todas las imágenes por defecto */
+}
+
+.carousel-slide.active {
+  display: flex; /* Solo mostramos la imagen activa */
+}
+
+button {
+  font-size: 24px;
+  background-color: #ffffff;
+  border: 2px solid #8d6eff;
+  color: #000000;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b1b1b147;
+  color: #8d6eff;
+}
+
+/* Asegura que los elementos se ajusten correctamente en pantallas pequeñas */
+@media (max-width: 768px) {
+  .carousel-slide {
+    display: block; /* Cambiamos a block para que cada slide ocupe toda la pantalla */
+  }
+
+  .carousel-row {
+    flex-direction: column; /* Las imágenes estarán apiladas en dispositivos pequeños */
+  }
+
+  .carousel-container {
+    flex-direction: column;
+  }
+
+  .col-12 {
+    padding: 0; /* Elimina el relleno horizontal */
+  }
+
+  .col-sm-4, .col-sm-8 {
+    padding: 0; /* Asegura que las columnas ocupen todo el ancho sin márgenes */
+  }
+
+  .btn {
+    font-size: 20px; /* Tamaño más pequeño para las flechas */
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-slide {
+    display: flex; /* Hacemos las imágenes visibles solo en dispositivos más grandes */
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Sección 7 */
+.social-icon {
+  font-size: 30px; /* Tamaño de los iconos */
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Efecto suave */
+}
+
+.social-icon:hover {
+  color: #000;
+  transform: scale(1.2); /* Efecto al hacer hover */
+}
+
+.mx-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem; /* Espaciado entre los iconos */
+}
+
+
+
+
+
